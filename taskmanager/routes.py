@@ -1,6 +1,7 @@
 from flask import render_template
 from taskmanager import app, db
-from taskmanger.models import Category, Task
+from taskmanager.models import Category, Task
+
 
 @app.route("/")
 def home():
